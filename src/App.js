@@ -1,24 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './pages/Login';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import LoginSelect from './pages/LoginSelect';
+import Qualification from './pages/Qualification';
+import Final from './pages/final';
+import DashBoard from './pages/Dashboard';
+import Professsionals from './pages/Professsionals';
+import Payment from './component/professional/Payment';
+import Profile from './pages/Profile';
+import Projects from './pages/Projects';
+import ProjectView from './component/projects/ProjectView';
+import MyJob from './pages/MyJob';
+import ActivityLog from './pages/ActivityLog';
+import ActivityLogView from './pages/ActivityLogView';
+import Withdawal from './pages/Withdawal';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route exact path="login" element={<Login />} />
+        <Route path='/' element={<LoginSelect />} />
+        <Route path='profile' element={<Profile />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='projects/projectview' element={<ProjectView />} />
+        <Route path="myjobs" element={<MyJob />} />
+        <Route path="activitylog" element={<ActivityLog />} />
+        <Route path="/activitylog/withdraw" element={<Withdawal />} />
+        <Route path="/activitylog/jobview" element={<ActivityLogView />} />
+        <Route path='qualification' element={<Qualification />} />
+        <Route path="final" element={<Final />} />
+        <Route path="dashboard" element={<DashBoard />} />
+        <Route path="professionals" element={<Professsionals />} />
+        <Route path="payment" element={<Payment />} />
+
+
+      </Routes>
+
+    </>
   );
 }
 
