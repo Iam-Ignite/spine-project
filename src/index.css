@@ -68,6 +68,10 @@ body{
     padding: 0.5rem 3rem;
 
 }
+.sidebar-color{
+  background-color:#05154E;
+}
+}
 .Pending{
   color:#FD7047;
 }
@@ -85,10 +89,6 @@ body{
 }
 .bg-progressbarjobs{
   background-color: #2E5BFF;
-}
-.sidebar-color{
-  background-color:#05154E;
-}
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */

@@ -24,7 +24,7 @@ const Professsionals = () => {
            <!-- PAGE CONTENT --> */}
 			<main className='flex-1  bg-[#FBFCFD] h-screen pb-44 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
 				<NavBar />
-				<div className='mt-10 mx-10'>
+				<div className='mt-10 md:mx-10 mx-4'>
 					<h1 className='fonts font-bold text-2xl'>
 						Get Professionals
 					</h1>
@@ -56,10 +56,10 @@ const Professsionals = () => {
 					<div className='flex md:flex-row lg:flex-row flex-col-reverse '>
 						{!modalFilter ? (
 							<div
-								className={`md:grid lg:grid gap-3 ${
+								className={`md:grid grid-cols-1 lg:grid gap-3 ${
 									!modalDetails
-										? 'md:grid-cols-4 lg:grid-cols-4  '
-										: 'md:grid-cols-2 lg:grid-cols-2 '
+										? 'md:grid-cols-3 lg:grid-cols-3  '
+										: 'md:grid-cols-1 lg:grid-cols-2 '
 								}`}>
 								<ProCard
 									imge='/Mask Group 10.svg'
@@ -104,8 +104,8 @@ const Professsionals = () => {
 							</div>
 						) : (
 							<div
-								className={`grid gap-3 grid-cols-${
-									!modalFilter ? '4' : '2'
+								className={`grid grid-cols-1 gap-3 grid-cols-${
+									!modalFilter ? '3' : '2'
 								}`}>
 								<ProCard
 									imge='/Mask Group 10.svg'

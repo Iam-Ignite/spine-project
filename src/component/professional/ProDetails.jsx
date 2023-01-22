@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function ProDetails({ setModalDetails }) {
 	return (
 		<>
-			<div className='w-full h-full bg-white my-4 rounded relative mx-4 border px-10 py-10'>
+			<div className='w-full h-full bg-white my-4 rounded relative md:mx-4 border px-10 py-10'>
 				<GrClose
 					onClick={() => setModalDetails(false)}
 					className='text-blue-600 cursor-pointer absolute right-10 top-5'

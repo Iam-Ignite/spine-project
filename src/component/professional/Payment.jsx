@@ -51,7 +51,7 @@ const Payment = () => {
 							Note to Professional
 						</h1>
 					</div>
-					<div className='px-10 flex flex-col  mx-32 mt-14 items-center justify-center'>
+					<div className='px-10 flex flex-col  md:mx-32 mt-14 items-center justify-center'>
 						<form className='w-full py-10 m-auto bg-white px-32'>
 							<div className='w-full flex items-center  px-3 mb-5'>
 								<label

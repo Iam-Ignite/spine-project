@@ -6,7 +6,7 @@ import { BsFillEmojiSmileFill } from "react-icons/bs";
 
 function MessageReply({setIsWidth}) {
     return (
-        <div className="w-full h-auto pb-4 bg-white border">
+        <div className="w-full h-auto relative pb-4 bg-white border">
             <div className="border-b">
                <button onClick={() => setIsWidth(true)} className="md:hidden flex mt-4 ml-2 items-center">
                   <BiChevronLeft />Back
@@ -18,8 +18,8 @@ function MessageReply({setIsWidth}) {
                 <p className='text-base text-gray-600'> While it may be tempting to write certain words like FREE, SALE, NOW, or SIGN UP, in all caps, this could drive customers away.</p>
                 <p className='text-base text-gray-600'> Keep your promo messages friendly and conversational. Feel free to experiment with the wording of your messages, monitor their performance and tweak them based on your audience’s response.</p>
             </div>
-            <div className="mt-3 mx-4 bg-[#FCFCFC] rounded w-auto p-5 border">
-                <textarea name="" className='w-full bg-[#FCFCFC] outline-none' placeholder='Please type in your response here...' id="" cols="30" rows="10"></textarea>
+            <div className="mt-3 mx-4 bg-[#FCFCFC] md:absolute bottom-4 rounded w-auto md:w-[95%] p-5 border">
+                <textarea name="" className='w-full bg-[#FCFCFC] outline-none' placeholder='Please type in your response here...' id="" cols="30" rows="8"></textarea>
                 <div className="flex justify-between">
                     <div className="my-2 flex justify-between items-center text-2xl gap-3">
                         <button><BiBold /></button>

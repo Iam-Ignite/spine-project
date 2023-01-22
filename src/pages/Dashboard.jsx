@@ -21,8 +21,8 @@ const DashBoard = () => {
            <!-- PAGE CONTENT --> */}
 			<main className='flex-1  bg-[#FBFCFD] pb-44 h-screen lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
 				<NavBar />
-				<div className='flex flex-wrap-reverse mt-8 ml-12 items-center'>
-					<p className='ml-5 font-bold'>
+				<div className='flex flex-wrap-reverse mt-8 mx-5 md:ml-12 items-center'>
+					<p className='md:ml-5 font-bold'>
 						Profile Completion (20%)
 					</p>
 					<div className='md:w-1/4 w-full '>
@@ -30,7 +30,7 @@ const DashBoard = () => {
 					</div>
 					<Link
 						to='/profile'
-						className='text-[#2E5BFF] ml-5'>
+						className='text-[#2E5BFF] md:ml-5'>
 						Click to complete profile
 					</Link>
 				</div>

@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import LoginSideBAr from '../component/common/Loginsidebar';
 
 const Final = () => {
@@ -179,11 +180,11 @@ const Final = () => {
 									professionals
 								</p>
 								<div className='flex justify-center'>
-									<a
-										href='/dashboard'
+									<Link
+										to='/dashboard'
 										className='px-4 py-2 text-base fonts text-white btn bg-auraPrimary rounded-sm bg-blue-600'>
 										GET STARTED
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>

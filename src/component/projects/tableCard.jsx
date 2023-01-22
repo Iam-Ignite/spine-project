@@ -32,7 +32,7 @@ function TableCard({ filteredName }) {
                                     </div>
                                 </div>
                             </div>
-                            <button className={`px-4 ${table.progress}`}>
+                            <button className={`px-4  ${table.progress}`}>
                                 {table.progress}
                             </button>
                       </div>

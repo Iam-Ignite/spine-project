@@ -4,7 +4,7 @@ import { GrClose } from "react-icons/gr";
 function Filter({setModalFilter}) {
 	return (
        <>
-		<div className='w-full h-full bg-white my-4 rounded relative mx-4 border px-10 py-10'>
+		<div className='w-full h-full bg-white my-4 rounded relative md:mx-4 border px-10 py-10'>
         <GrClose onClick={() => setModalFilter(false)} className='text-blue-600 cursor-pointer absolute right-10 top-5'/>
 			<h1 className='fonts text-lg font-medium mb-5'>
 				Experience Level

@@ -19,8 +19,8 @@ function ProjectView() {
                             <Link className="rounded-sm flex items-center px-4 py-2 mx-2 border" to="/projects"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="mx-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path>
                             </svg> GO Back</Link>
                         </div>
-                        <div className='w-full py-10 md:pb-32 m-auto border bg-white px-16'>
-                            <div className=" grid md:grid-cols-3 gap-6 items-end">
+                        <div className='w-full py-10 mb-16 md:pb-32 m-auto border bg-white p-4 md:px-16'>
+                            <div className=" grid md:grid-cols-3 justify-items-center md:justify-items-start grid-cols-2 gap-6 md:items-end">
                                 <div className="">
                                     <h4>Headline</h4>
                                     <p className='text-[#969696] text-sm'>ACA Investments</p>
@@ -46,13 +46,13 @@ function ProjectView() {
                                     <p className='text-[#969696] text-sm'>N 250,000.00</p>
                                 </div>
 
-                                <div className="">
+                                <div className="flex md:block flex-col">
                                     <h4>Overview</h4>
                                     <p className='text-[#969696] text-sm'>Explain what is required of our professional</p>
                                 </div>
                                 <p className='text-[#5EA820] text-sm'> In Progress</p>
                             </div>
-                            <div className="flex flex-col md:flex-row md:justify-between mt-8 md:items-center md:w-2/5"><label
+                            <div className="flex flex-col mx-2 md:mx-0 md:flex-row md:justify-between mt-8 md:items-center md:w-2/5"><label
                                 htmlFor='file'
                                 className='appearance-none flex items-center w-auto boder-4 bg-gray-300 border-dashed text-gray-700 text-xs border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
                                 <img
