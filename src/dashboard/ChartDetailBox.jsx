@@ -46,7 +46,7 @@ const ChartDetailBox = () => {
 						<label className='flex fonts mb-3'>
 							<img
 								className='mx-4'
-								src='/blue.svg'
+								src='/blue2.svg'
 								alt='logo'
 							/>
 							Completed

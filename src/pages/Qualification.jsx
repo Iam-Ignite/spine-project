@@ -24,12 +24,12 @@ const Qualification = () => {
 								</div>
 
 								<div className='mt-5 h-min px-10 flex overflow-y-auto flex-col items-center justify-center'>
-									<form class='w-full pb-44 md:pb-16 lg:pb-16 md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
-										<div class='grid grid-cols-2 -mx-3 mb-6'>
-											<div class='w-full relative px-3'>
+									<form className='w-full pb-44 md:pb-16 lg:pb-16 md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
+										<div className='grid grid-cols-2 -mx-3 mb-6'>
+											<div className='w-full relative px-3'>
 												<label
 													class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-name'>
 													Qualification
 												</label>
 												<select
@@ -39,7 +39,7 @@ const Qualification = () => {
 														Select Qualification
 													</option>
 												</select>
-												<div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+												<div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
 													<svg
 														class='fill-current h-4 w-4'
 														xmlns='http://www.w3.org/2000/svg'
@@ -48,25 +48,25 @@ const Qualification = () => {
 													</svg>
 												</div>
 											</div>
-											<div class='w-full  px-3'>
+											<div className='w-full  px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-namee'>
 													Institution
 												</label>
 												<input
 													class='appearance-none block w-full text-xs bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-last-name'
+													id='grid-last-namee'
 													type='text'
 													placeholder=''
 												/>
 											</div>
 										</div>
-										<div class='grid grid-cols-1 -mx-3 mb-6'>
-											<div class='w-full  px-3 mb-6 md:mb-0'>
+										<div className='grid grid-cols-1 -mx-3 mb-6'>
+											<div className='w-full  px-3 mb-6 md:mb-0'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-													for='grid-first-name'>
+													htmlFor='grid-first-name'>
 													Address
 												</label>
 												<input
@@ -77,8 +77,8 @@ const Qualification = () => {
 												/>
 											</div>
 										</div>
-										<div class='grid grid-cols-1 -mx-3 lg:mb-6 md:mb-6'>
-											<div class='w-full  px-3 mb-6 md:mb-0'>
+										<div className='grid grid-cols-1 -mx-3 lg:mb-6 md:mb-6'>
+											<div className='w-full  px-3 mb-6 md:mb-0'>
 												<button className='bg-blue-100 py-2   px-5 rounded-sm text-blue-600'>
 													<span className='border text-xs mx-2 fonts rounded-full px-1  border-blue-600'>
 														+

@@ -16,11 +16,11 @@ const DashTable = ({filteredName}) => {
 								<input
 									id='checkbox-all'
 									type='checkbox'
-									class='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 '
+									className='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 '
 								/>
 								<label
-									for='checkbox-all'
-									class='sr-only fonts'>
+									htmlFor='checkbox-all'
+									className='sr-only fonts'>
 									checkbox
 								</label>
 							</div>
@@ -63,18 +63,18 @@ const DashTable = ({filteredName}) => {
 									<input
 										id='checkbox-table-1'
 										type='checkbox'
-										class='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded '
+										className='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded '
 									/>
 									<label
-										for='checkbox-table-1'
-										class='sr-only'>
+										htmlFor='checkbox-table-1'
+										className='sr-only'>
 										checkbox
 									</label>
 								</div>
 							</td>
 							<th
 								scope='row'
-								class='p-2 fonts fonts font-medium md:px-2 md:py-4 whitespace-nowrap'>
+								className='p-2 fonts fonts font-medium md:px-2 md:py-4 whitespace-nowrap'>
 								{table.clientName}
 							</th>
 							<td className='p-2 fonts text-center md:px-2 md:py-4'>

@@ -26,7 +26,7 @@ function Withdawal() {
                                 Withdawal
                             </h1>
                         </div>
-                        <form class='w-full md:w-96  md:mx-0 mt-5'>
+                        <form className='w-full md:w-96  md:mx-0 mt-5'>
                             <div className='flex items-center border border-gray-300 px-5 py-4 md:mr-4 rounded justify-between'>
                                 <div className='flex items-center'>
                                     <img
@@ -47,7 +47,7 @@ function Withdawal() {
                                         id='Beginner'
                                         name='radio-group'
                                     />
-                                    <label for='Beginner'></label>
+                                    <label htmlFor='Beginner'></label>
                                 </div>
                             </div>
 
@@ -72,7 +72,7 @@ function Withdawal() {
                                         id='Intermediate'
                                         name='radio-group'
                                     />
-                                    <label for='Intermediate'></label>
+                                    <label htmlFor='Intermediate'></label>
                                 </div>
                             </div>
 
@@ -85,7 +85,7 @@ function Withdawal() {
                                <div className='w-full md:flex justify-between items-center px-3  md:mb-6'>
                                 <label
                                     className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                                    for='grid-first-name'>
+                                    htmlFor='grid-first-name'>
                                     Amount
                                 </label>
                                 <input
@@ -98,7 +98,7 @@ function Withdawal() {
                                 <div className='w-full md:flex justify-between items-center md:mb-6 relative px-3'>
                                     <label
                                         className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-                                        for='grid-last-name'>
+                                        htmlFor='grid-last-name'>
                                         Bank Name
                                     </label>
                                     <select
@@ -120,7 +120,7 @@ function Withdawal() {
                                 <div className='w-full md:flex justify-between items-center mt-4 md:mb-6 relative px-3'>
                                     <label
                                         className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-                                        for='grid-last-name'>
+                                        htmlFor='grid-last-name'>
                                         Card Type
                                     </label>
                                     <select
@@ -142,7 +142,7 @@ function Withdawal() {
                                 <div className='w-full md:flex justify-between items-center mt-5 md:mb-6 px-3'>
                                     <label
                                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                                        for='grid-last-name'>
+                                        htmlFor='grid-last-name'>
                                         Card Holder Name
                                     </label>
                                     <input
@@ -156,7 +156,7 @@ function Withdawal() {
                             <div className='w-full md:flex justify-between items-center px-3  md:mb-6'>
                                 <label
                                     className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                                    for='grid-first-name'>
+                                    htmlFor='grid-first-name'>
                                     Card Number
                                 </label>
                                 <input

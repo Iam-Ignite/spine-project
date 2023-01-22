@@ -4,7 +4,7 @@ function NavBar() {
    const [show, setShow] = useState(false)
 
     return (
-        <nav class='fixed w-full flex md:py-0 py-4 md:px-6 p-3  lg:px-0 items-center justify-between lg:justify-end   md:justify-end top-0 md:z-50 lg:z-50 mx-auto h-20 bg-white  shadow-sm'>
+        <nav className='fixed w-full flex md:py-0 py-4 md:px-6 p-3  lg:px-0 items-center justify-between lg:justify-end   md:justify-end top-0 md:z-50 lg:z-50 mx-auto h-20 bg-white  shadow-sm'>
             <div
                 className={`text-[#007bf5] z-20 relative flex items-center text-3xl  md:hidden lg:hidden`}>
                 <img src="/Logo.svg" alt=""  /><span className="absolute text-2xl font-sans right-2">Spine</span>
@@ -27,12 +27,12 @@ function NavBar() {
 
              <img
                 src='/notification.svg'
-                className='h-8  md:ml-16  lg:ml-16'
+                className={`${!show ? "block" : "hidden"  } h-8  md:ml-16  lg:ml-16`}
                 alt=''
             />
             <img
-                src='/image icon.svg'
-                className='p-2  md:ml-16 md:hidden block rounded-full lg:ml-16'
+                src='/blue.svg'
+                className={` ${!show ? "block" : "hidden"  }  p-2  md:ml-16 md:hidden block rounded-full h-12 lg:ml-16`}
                 alt=''
             />
             <div className="border-r md:h-full md:mr-80  lg:mr-80 md:ml-10 "></div>

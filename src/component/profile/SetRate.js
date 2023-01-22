@@ -22,14 +22,14 @@ function SetRate() {
                     </p>
                 </div>
                 <div className="md:flex">
-                    <div class='w-full  mb-6 md:mb-3'>
+                    <div className='w-full  mb-6 md:mb-3'>
                         <input
                             type='radio'
                             id='Hourly'
                             name='radio-group'
                         />
                         <label
-                            for='Hourly'
+                            htmlFor='Hourly'
                             className='text-black text-sm font-bold fonts'>
                             Hourly
                         </label>
@@ -39,14 +39,14 @@ function SetRate() {
                         </p>
                     </div>
 
-                    <div class='w-full mb-6 md:mb-4'>
+                    <div className='w-full mb-6 md:mb-4'>
                         <input
                             type='radio'
                             id='Intermediate'
                             name='radio-group'
                         />
                         <label
-                            for='Intermediate'
+                            htmlFor='Intermediate'
                             className='text-black font-bold text-sm fonts'>
                             One-off Payment
                         </label>
@@ -57,76 +57,76 @@ function SetRate() {
                     </div>
                 </div>
                 <div className="md:flex">
-                    <form class='w-full'>
-                        <div class=''>
+                    <form className='w-full'>
+                        <div className=''>
 
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                   Enter Service Name
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+                                    className='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='Enter here'
                                 />
                             </div>
-                            <div class='w-full relative  px-3 mb-6 md:mb-0'>
+                            <div className='w-full relative  px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-last-name'>
+                                    className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-last-name'>
                                     Select Currency
                                 </label>
                                 <select
-                                    class='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                    className='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                     id='grid-state'>
                                     <option>Select Currency</option>
                                 </select>
-                                <div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+                                <div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
                                     <svg
-                                        class='fill-current h-4 w-4'
+                                        className='fill-current h-4 w-4'
                                         xmlns='http://www.w3.org/2000/svg'
                                         viewBox='0 0 20 20'>
                                         <path d='M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z' />
                                     </svg>
                                 </div>
                             </div>
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Set your hourly rate
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+                                    className='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='Set your hourly rate'
                                 />
                             </div>
-                            <div class='w-full  px-3'>
+                            <div className='w-full  px-3'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-last-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-last-name'>
                                   Spine Service Charge
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-slate-100 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                    className='appearance-none block text-xs fonts w-full bg-slate-100 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
                                     id='grid-last-name'
                                     type='text'
                                     placeholder='NGN 100 / Hr'
                                 />
                             </div>
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Rate After Service Charge
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-slate-100 text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
+                                    className='appearance-none block text-xs fonts w-full bg-slate-100 text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='N 25,000 / Hr '
@@ -135,111 +135,111 @@ function SetRate() {
                         </div>
 
                     </form>
-                    <form class='w-full'>
-                        <div class=''>
+                    <form className='w-full'>
+                        <div className=''>
 
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Enter Service Name
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+                                    className='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='Enter here'
                                 />
                             </div>
-                            <div class='w-full relative  px-3 mb-6 md:mb-0'>
+                            <div className='w-full relative  px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-last-name'>
+                                    className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-last-name'>
                                     Estimated Duration
                                 </label>
                                 <select
-                                    class='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                    className='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                     id='grid-state'>
                                     <option>Select here</option>
                                 </select>
-                                <div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+                                <div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
                                     <svg
-                                        class='fill-current h-4 w-4'
+                                        className='fill-current h-4 w-4'
                                         xmlns='http://www.w3.org/2000/svg'
                                         viewBox='0 0 20 20'>
                                         <path d='M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z' />
                                     </svg>
                                 </div>
                             </div>
-                            <div class='w-full relative  px-3 mb-6 md:mb-0'>
+                            <div className='w-full relative  px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-last-name'>
+                                    className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-last-name'>
                                     Select Currency
                                 </label>
                                 <select
-                                    class='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                    className='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                     id='grid-state'>
                                     <option>Select Currency</option>
                                 </select>
-                                <div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+                                <div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
                                     <svg
-                                        class='fill-current h-4 w-4'
+                                        className='fill-current h-4 w-4'
                                         xmlns='http://www.w3.org/2000/svg'
                                         viewBox='0 0 20 20'>
                                         <path d='M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z' />
                                     </svg>
                                 </div>
                             </div>
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Set Project fee
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+                                    className='appearance-none block text-xs fonts w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='Enter here'
                                 />
                             </div>
-                            <div class='w-full  px-3'>
+                            <div className='w-full  px-3'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-last-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-last-name'>
                                     Rate After Service Charge
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-slate-100 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                    className='appearance-none block text-xs fonts w-full bg-slate-100 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
                                     id='grid-last-name'
                                     type='text'
                                     placeholder='NGN 15 000'
                                 />
                             </div>
-                            <div class='w-full px-3 mb-6 md:mb-0'>
+                            <div className='w-full px-3 mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Spine Service Charge
                                 </label>
                                 <input
-                                    class='appearance-none block text-xs fonts w-full bg-slate-100 text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
+                                    className='appearance-none block text-xs fonts w-full bg-slate-100 text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
                                     id='grid-first-name'
                                     type='text'
                                     placeholder='N 25,000 '
                                 />
                             </div>
                         </div>
-                        <div class='grid grid-cols-1 gap-3 md:mb-6 lg:mb-6'>
-                            <div class='w-full  md:px-3 lg:px-3 lg:mb-6 md:mb-0'>
+                        <div className='grid grid-cols-1 gap-3 md:mb-6 lg:mb-6'>
+                            <div className='w-full  md:px-3 lg:px-3 lg:mb-6 md:mb-0'>
                                 <label
-                                    class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
-                                    for='grid-first-name'>
+                                    className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2 mt-3'
+                                    htmlFor='grid-first-name'>
                                     Notes (If Any)
                                 </label>
                                 <textarea
-                                    class='appearance-none block text-xs fonts w-full bg-white text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
+                                    className='appearance-none block text-xs fonts w-full bg-white text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:border-gray-500 '
                                     id='grid-first-name'
                                     type='text'
                                     rows='4'

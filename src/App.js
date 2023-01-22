@@ -17,6 +17,7 @@ import MyJob from './pages/MyJob';
 import ActivityLog from './pages/ActivityLog';
 import ActivityLogView from './pages/ActivityLogView';
 import Withdawal from './pages/Withdawal';
+import Message from './pages/Message';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="dashboard" element={<DashBoard />} />
         <Route path="professionals" element={<Professsionals />} />
         <Route path="payment" element={<Payment />} />
+        <Route path="messages" element={<Message />} />
 
 
       </Routes>

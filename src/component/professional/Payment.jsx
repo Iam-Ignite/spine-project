@@ -55,12 +55,12 @@ const Payment = () => {
 						<form className='w-full py-10 m-auto bg-white px-32'>
 							<div className='w-full flex items-center  px-3 mb-5'>
 								<label
-									class='block w-64 uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-									for='grid-first-name'>
+									className='block w-64 uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
+									htmlFor='grid-first-name'>
 									Headline
 								</label>
 								<input
-									class='appearance-none block w-full fonts bg-slate-100 text-gray-700 text-xs border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+									className='appearance-none block w-full fonts bg-slate-100 text-gray-700 text-xs border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
 									id='grid-first-name'
 									type='text'
 									placeholder='Enter the topic of the post'
@@ -68,12 +68,12 @@ const Payment = () => {
 							</div>
 							<div className='w-full flex items-center mb-6 relative px-3'>
 								<label
-									class='block w-64 uppercase fonts  tracking-wide font-bold text-gray-700 text-xs  mb-2'
-									for='grid-last-name'>
+									className='block w-64 uppercase fonts  tracking-wide font-bold text-gray-700 text-xs  mb-2'
+									htmlFor='grid-last-name'>
 									Number of hours
 								</label>
 								<select
-									class='block appearance-none w-full text-xs fonts border bg-slate-100 border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+									className='block appearance-none w-full text-xs fonts border bg-slate-100 border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
 									id='grid-state'>
 									<option>
 										Select number of hours you want to hire
@@ -82,7 +82,7 @@ const Payment = () => {
 								</select>
 								<div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
 									<svg
-										class='fill-current h-4 w-4'
+										className='fill-current h-4 w-4'
 										xmlns='http://www.w3.org/2000/svg'
 										viewBox='0 0 20 20'>
 										<path d='M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z' />
@@ -91,12 +91,12 @@ const Payment = () => {
 							</div>
 							<div className='w-full flex items-center mb-6  px-3'>
 								<label
-									class='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-									for='grid-last-name'>
+									className='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
+									htmlFor='grid-last-name'>
 									Project Name
 								</label>
 								<input
-									class='appearance-none block w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-slate-100 focus:border-gray-500'
+									className='appearance-none block w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-slate-100 focus:border-gray-500'
 									id='grid-last-name'
 									type='text'
 									placeholder='Enter your project name'
@@ -104,12 +104,12 @@ const Payment = () => {
 							</div>
 							<div className='w-full flex items-center mb-6  px-3'>
 								<label
-									class='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-									for='grid-last-name'>
+									className='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
+									htmlFor='grid-last-name'>
 									Overview
 								</label>
 								<textarea
-									class='appearance-none block w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-slate-100 focus:border-gray-500'
+									className='appearance-none block w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-slate-100 focus:border-gray-500'
 									id='grid-last-name'
 									type='text'
 									rows='4'
@@ -118,18 +118,18 @@ const Payment = () => {
 							</div>
 							<div className='w-full flex items-center mb-6 px-3'>
 								<label
-									class='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-									for='grid-last-name'>
+									className='block uppercase w-64 tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
+									htmlFor='grid-last-name'>
 									Add Documents
 								</label>
 								<input
-									class='appearance-none hidden  w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+									className='appearance-none hidden  w-full bg-slate-100 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
 									id='file'
 									type='file'
 									placeholder='Doe'
 								/>
 								<label
-									htmlFor='file'
+									htmlhtmlFor='file'
 									className='appearance-none flex items-center w-full bg-orange-200 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
 									<img
 										src='/attach.svg'
@@ -188,7 +188,7 @@ const Payment = () => {
 											/>
 											<label
 												className=' text-sm fonts text-gray-700'
-												for='Interswitch'>
+												htmlFor='Interswitch'>
 												Interswitch
 											</label>
 										</div>
@@ -200,7 +200,7 @@ const Payment = () => {
 											/>
 											<label
 												className=' text-sm fonts text-gray-700'
-												for='Paypal'>
+												htmlFor='Paypal'>
 												Paypal
 											</label>
 										</div>
@@ -212,7 +212,7 @@ const Payment = () => {
 											/>
 											<label
 												className=' text-sm fonts text-gray-700'
-												for='Spine Wallet'>
+												htmlFor='Spine Wallet'>
 												Spine Wallet
 											</label>
 										</div>

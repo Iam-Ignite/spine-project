@@ -35,7 +35,7 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 			icon:<RiAwardFill />
 		},
 		{
-			path: '/message',
+			path: '/messages',
 			title: 'Messages',
 			icon:<RiMessageFill />
 		}
@@ -53,7 +53,7 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 							<img src='/Logo.svg' className='' alt='' />
 						</a>
 						{/* <!-- NAV LINKS --> */}
-						<div className='py-4 space-y-2  flex justify-center text-gray-400'>
+						<div className='py-4 space-y-2 lg:flex flex justify-center text-gray-400'>
 							 						    
 							<div className='md:pt-10  justify-evenly flex-wrap gap-2 md:w-full md:mx-8 overflow-x-auto  flex md:block'>
 								{/* <!-- BASIC LINK --> */}

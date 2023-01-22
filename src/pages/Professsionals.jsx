@@ -15,33 +15,33 @@ const Professsionals = () => {
 	const [modalFilter, setModalFilter] = useState(false);
 	const [modalDetails, setModalDetails] = useState(false);
 
-
 	return (
 		<div className='relative flex'>
 			{/* <!-- NAV --> */}
-			<SideBarDashboard
-				
-			/>
+			<SideBarDashboard />
 			{/* <!-- END OF NAV -->
 
            <!-- PAGE CONTENT --> */}
 			<main className='flex-1  bg-[#FBFCFD] h-screen pb-44 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
-				<NavBar/>
+				<NavBar />
 				<div className='mt-10 mx-10'>
 					<h1 className='fonts font-bold text-2xl'>
 						Get Professionals
 					</h1>
-					<div className='flex mt-4 items-center'>
+					<div className='flex mt-5  items-center'>
 						<button
 							onClick={() => setModalFilter(!false)}
-							className='flex items-center  mr-6 fonts appearance-none w-48  bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"'>
-							<BiMenuAltLeft className='mr-2' /> Filter by{' '}
-							<BiChevronRight className='ml-14' />
+							className='flex items-center  mr-6 fonts appearance-none md:w-48  bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"'>
+							<BiMenuAltLeft className='md:mr-2' />{' '}
+							<span className='hidden md:block'>
+								Filter by
+							</span>
+							<BiChevronRight className='ml-14 hidden  md:block' />
 						</button>
-						<div className='relative w-52'>
+						<div className='relative md:w-52 w-full'>
 							<input
 								type='text'
-								className='appearance-none block w-42  bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+								className='appearance-none block md:w-42 w-full  bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
 								placeholder='Search here '
 							/>
 							<img

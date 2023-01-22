@@ -30,7 +30,7 @@ const Final = () => {
 								</div>
 
 								<div className='mt-5 h-min px-10 flex overflow-y-auto flex-col items-center justify-center'>
-									<form class='w-full pb-44 md:pb-16 lg:pb-16 md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
+									<form className='w-full pb-44 md:pb-16 lg:pb-16 md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
 										<label
 											className='cursor-pointer'
 											htmlFor='file'>
@@ -53,19 +53,19 @@ const Final = () => {
 												className='hidden'
 											/>
 										</label>
-										<div class='grid md:grid-cols-2 gap-4 md:gap-0 -mx-3 mb-6'>
-											<div class='w-full relative px-3'>
+										<div className='grid md:grid-cols-2 gap-4 md:gap-0 -mx-3 mb-6'>
+											<div className='w-full relative px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-namese'>
 													Country
 												</label>
 												<select
 													class='block appearance-none text-xs w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-state'>
+													id='grid-statewfr'>
 													<option>Select Country</option>
 												</select>
-												<div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+												<div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
 													<svg
 														class='fill-current h-4 w-4'
 														xmlns='http://www.w3.org/2000/svg'
@@ -74,33 +74,33 @@ const Final = () => {
 													</svg>
 												</div>
 											</div>
-											<div class='w-full  px-3'>
+											<div className='w-full  px-3'>
 												<label
 													class='block uppercase text-xs tracking-wide fonts font-bold text-gray-700 t mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-nrfeframe'>
 													Address
 												</label>
 												<input
 													class='appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-last-name'
+													id='grid-last-refrename'
 													type='text'
 													placeholder=''
 												/>
 											</div>
 										</div>
-										<div class='grid md:grid-cols-2 gap-4 md:gap-0 -mx-3 mb-6'>
-											<div class='w-full relative px-3'>
+										<div className='grid md:grid-cols-2 gap-4 md:gap-0 -mx-3 mb-6'>
+											<div className='w-full relative px-3'>
 												<label
 													class='block uppercase tracking-wide fonts text-xs font-bold text-gray-700 mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-rgevrqrqfname'>
 													State
 												</label>
 												<select
 													class='block appearance-none w-full fonts border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-state'>
+													id='grid-starefefqte'>
 													<option>Select State</option>
 												</select>
-												<div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+												<div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
 													<svg
 														class='fill-current h-4 w-4'
 														xmlns='http://www.w3.org/2000/svg'
@@ -110,18 +110,18 @@ const Final = () => {
 												</div>
 											</div>
 
-											<div class='w-full relative px-3'>
+											<div className='w-full relative px-3'>
 												<label
 													class='block uppercase tracking-wide font-bold text-gray-700 text-xs  mb-2'
-													for='grid-last-name'>
+													htmlFor='grierrrefrd-last-name'>
 													City
 												</label>
 												<select
 													class='block appearance-none fonts text-xs w-full border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-state'>
+													id='grid-sreferftate'>
 													<option>Select City</option>
 												</select>
-												<div class='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
+												<div className='pointer-events-none absolute inset-y-0 right-2 flex items-center px-2 text-gray-700'>
 													<svg
 														class='fill-current h-4 w-4'
 														xmlns='http://www.w3.org/2000/svg'
@@ -131,11 +131,11 @@ const Final = () => {
 												</div>
 											</div>
 										</div>
-										<div class='grid grid-cols-1 -mx-3 mb-6'>
-											<div class='w-full  px-3'>
+										<div className='grid grid-cols-1 -mx-3 mb-6'>
+											<div className='w-full  px-3'>
 												<label
 													class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-refreflast-name'>
 													Professional Overview
 												</label>
 												<textarea

@@ -16,7 +16,7 @@ function EditProfile() {
                     <div className='w-full md:flex justify-between mt-5 md:mb-2 px-3'>
                         <label
                             className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Full Name
                         </label>
                         <input
@@ -29,7 +29,7 @@ function EditProfile() {
                     <div className='w-full md:flex justify-between  md:mb-2 px-3'>
                         <label
                             className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Email
                         </label>
                         <input
@@ -42,7 +42,7 @@ function EditProfile() {
                     <div className='w-full md:flex justify-between md:mb-2 relative px-3'>
                         <label
                             className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Career
                         </label>
                         <select
@@ -64,7 +64,7 @@ function EditProfile() {
                       <div className='w-full md:flex justify-between md:mb-2 mt-2 relative px-3'>
                         <label
                             className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Level of experience
                         </label>
                         <select
@@ -86,7 +86,7 @@ function EditProfile() {
                     <div className='w-full md:flex justify-between mt-2 md:mb-2 px-3'>
                         <label
                             className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Phone Number
                         </label>
                         <input
@@ -100,7 +100,7 @@ function EditProfile() {
                 <div className='w-full md:flex justify-between px-3  md:mb-2'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Location
                     </label>
                     <input
@@ -113,7 +113,7 @@ function EditProfile() {
                  <div className='w-full md:flex justify-between px-3  md:mb-2'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Overview
                     </label>
                     <textarea name="" className='appearance-none block w-full md:w-3/4 text-xs bg-[#F4F4F4] text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white' id="" cols="30" rows="10"></textarea>

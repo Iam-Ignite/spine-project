@@ -24,7 +24,7 @@ function TableCard({ filteredName }) {
                                 <div className="flex justify-between">
                                     <div className="flex flex-col">
                                         <span className='text-[#8A8888] text-xs'>Project name</span>
-                                        <b>{table.sponsors}</b>
+                                       <b>{table.sponsors}</b>
                                     </div>
                                     <div className="flex flex-col">
                                         <span className='text-[#8A8888] text-xs'>Amount</span>

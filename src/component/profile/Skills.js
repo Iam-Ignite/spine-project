@@ -11,90 +11,90 @@ function Skills() {
             </b>
 
             <form>
-                <div class='grid md:grid-cols-4 grid-cols-2 my-10  gap-8 '>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                <div className='grid md:grid-cols-4 grid-cols-2 my-10  gap-8 '>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='w-full px-3 mb-6 md:mb-0'>
-                        <label class='containers '>
+                    <div className='w-full px-3 mb-6 md:mb-0'>
+                        <label className='containers '>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
-                    <div class='px-3 md:mb-6 mb-6'>
-                        <label class='containers'>
+                    <div className='px-3 md:mb-6 mb-6'>
+                        <label className='containers'>
                             <input type='checkbox' />
-                            <span class='checkmark fonts'>
+                            <span className='checkmark fonts'>
                                 Phasellus vehicula
                             </span>
                         </label>
                     </div>
                 </div>
 
-                <div class='w-full lg:mt-0  md:mb-0'>
+                <div className='w-full lg:mt-0  md:mb-0'>
                     <label
-                        class='block uppercase fonts tracking-wide font-bold text-gray-700 text-sm  mb-2'
+                        className='block uppercase fonts tracking-wide font-bold text-gray-700 text-sm  mb-2'
                         for='grid-first-name'>
                         Can't find any? Enter skill here
                     </label>
                     <div className="md:flex items-center mb-5">
                         <input
-                            class='appearance-none text-xs block md:w-2/4 w-full mb-5 md:mb-0 bg-white text-gray-700 border rounded py-3 px-4 mr-5 leading-tight focus:outline-none focus:bg-white'
+                            className='appearance-none text-xs block md:w-2/4 w-full mb-5 md:mb-0 bg-white text-gray-700 border rounded py-3 px-4 mr-5 leading-tight focus:outline-none focus:bg-white'
                             id='grid-first-name'
                             type='text'
                             placeholder='Lorem Ipsum'

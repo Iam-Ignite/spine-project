@@ -113,7 +113,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 1
                                         </label>
@@ -126,7 +126,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 2
                                         </label>
@@ -139,7 +139,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 3
                                         </label>
@@ -152,7 +152,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 4
                                         </label>
@@ -164,7 +164,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 5
                                         </label>
@@ -176,7 +176,7 @@ function ActivityLogView({ link }) {
                                             className='w-4 h-4 text-black bg-gray-100 border-gray-300 rounded '
                                         />
                                         <label
-                                            for='checkbox-table-1'
+                                            htmlFor='checkbox-table-1'
                                             className='text-gray-600 mx-3 text-xs fonts'>
                                             Week 6
                                         </label>

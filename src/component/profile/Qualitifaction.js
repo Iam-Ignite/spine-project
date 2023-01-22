@@ -9,7 +9,7 @@ function Qualitifaction() {
                     <div className='w-full md:flex justify-between md:mb-6 relative px-3'>
                         <label
                             className='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Qualification
                         </label>
                         <select
@@ -31,7 +31,7 @@ function Qualitifaction() {
                     <div className='w-full md:flex justify-between mt-5 md:mb-6 px-3'>
                         <label
                             className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                            for='grid-last-name'>
+                            htmlFor='grid-last-name'>
                             Institution
                         </label>
                         <input
@@ -45,7 +45,7 @@ function Qualitifaction() {
                 <div className='w-full md:flex justify-between px-3  md:mb-6'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Address
                     </label>
                     <input

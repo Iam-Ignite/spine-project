@@ -24,7 +24,7 @@ const LoginSelect = () => {
 								</div>
 
 								<div className='mt-5 px-10 block md:flex lg:flex flex-col items-center justify-center'>
-									<form class='w-full md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
+									<form className='w-full md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
 										<div className='flex items-center border border-gray-300 px-5 py-4 w-96 lg:-2/3 md:w-2/3 rounded justify-between'>
 											<div className=''>
 												<img

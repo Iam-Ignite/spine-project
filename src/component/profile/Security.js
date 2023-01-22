@@ -8,7 +8,7 @@ function Security() {
                 <div className='w-full md:flex justify-between items-center px-3  md:mb-6'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Enter old password
                     </label>
                     <input
@@ -21,7 +21,7 @@ function Security() {
                 <div className='w-full md:flex justify-between items-center px-3  md:mb-6'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Enter new password
                     </label>
                     <input
@@ -34,7 +34,7 @@ function Security() {
                 <div className='w-full md:flex justify-between items-center px-3  md:mb-6'>
                     <label
                         className='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
-                        for='grid-first-name'>
+                        htmlFor='grid-first-name'>
                         Confirm password
                     </label>
                     <input

@@ -28,7 +28,7 @@ const Login = () => {
 											<div class='w-full  px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-first-name'>
+													htmlFor='grid-first-name'>
 													First Name
 												</label>
 												<input
@@ -41,7 +41,7 @@ const Login = () => {
 											<div class='w-full mb-4 md:mb-0 px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-name'>
 													Last Name
 												</label>
 												<input
@@ -56,12 +56,12 @@ const Login = () => {
 											<div class='w-full  px-3 mb-3 md:mb-0 '>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-first-name'>
+													htmlFor='grid-first-name'>
 													Email address
 												</label>
 												<input
 													class='appearance-none block w-full bg-white text-gray-700 text-xs border rounded py-3 px-4  leading-tight focus:outline-none focus:bg-white'
-													id='grid-first-name'
+													id='grid-first-kname'
 													type='text'
 													placeholder='Email address'
 												/>
@@ -69,7 +69,7 @@ const Login = () => {
 											<div class='w-full  px-3 mb-3 md:mb-0'>
 												<label
 													class='block uppercase tracking-wide font-bold fonts text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-first-name'>
+													htmlFor='grid-firskt-name'>
 													Phone number
 												</label>
 												<input
@@ -85,7 +85,7 @@ const Login = () => {
 											<div class='w-full relative mb-3 md:mb-6 px-3'>
 												<label
 													class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-kname'>
 													What Service do you offer?
 												</label>
 												<select
@@ -105,7 +105,7 @@ const Login = () => {
 											<div class='w-full relative mb-3 md:mb-6 px-3'>
 												<label
 													class='block uppercase fonts tracking-wide font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-last-nakme'>
 													Level of Experience
 												</label>
 												<select
@@ -127,7 +127,7 @@ const Login = () => {
 											<div class='w-full mb-3 md:mb-0  px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-last-name'>
+													htmlFor='grid-lammst-name'>
 													Password
 												</label>
 												<input
@@ -140,12 +140,12 @@ const Login = () => {
 											<div class='w-full mb-3 md:-0 px-3'>
 												<label
 													class='block uppercase tracking-wide fonts font-bold text-gray-700 text-xs mb-1 lg:mb-2 md:mb-2'
-													for='grid-last-name'>
+													htmlFor='grkkid-last-name'>
 													Confirm password
 												</label>
 												<input
 													class='appearance-none block w-full bg-white text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-													id='grid-last-name'
+													id='gkkrid-last-name'
 													type='password'
 													placeholder='Confirm password'
 												/>
