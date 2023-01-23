@@ -3,7 +3,7 @@ import { BiMenuAltLeft } from 'react-icons/bi'
 
 export default function MessageList({ setIsWidth }) {
     return (
-        <div className="md:border h-[80vh] overflow-y-scroll md:bg-white md:p-5 py-0 md:w-2/3 md:mr-6">
+        <div className="md:border h-[80vh] overflow-y-scroll mx-4 md:bg-white md:p-5 py-0 md:w-2/3 md:mr-6">
             <div className='flex items-center border-b pb-6 pt-3'>
                 <button
                     className='flex items-center fonts mr-5 appearance-none md:w-auto  bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"'>

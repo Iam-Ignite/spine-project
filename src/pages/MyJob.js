@@ -33,9 +33,9 @@ function MyJob() {
                     <div className="mt-8  md:mx-16">
                         <div className="border-b mx-6 mt-4 ">
                             <ul className='md:flex flex md:w-2/5 md:mx-0 w-3/4 items-center mt-2 justify-between'>
-                                <li><button onClick={() => setFilteredName("jobsPosted")} className={`text-sm md:text-xl font-light font-sans text-[#6C757D]   ${filteredName === "jobsPosted" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>Jobs Posted</button></li>
-                                <li><button onClick={() => setFilteredName("Appliedjob")} className={`text-sm md:text-xl font-light font-sans text-[#6C757D]   ${filteredName === "Appliedjob" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>Applied Job</button></li>
-                                <li><button onClick={() => setFilteredName("MyJobs")} className={`text-sm md:text-xl font-light font-sans text-[#6C757D]   ${filteredName === "MyJobs" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>My Jobs</button></li>
+                                <li><button onClick={() => setFilteredName("jobsPosted")} className={`text-sm md:text-xl font-medium font-sans text-[#6C757D]   ${filteredName === "jobsPosted" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>Jobs Posted</button></li>
+                                <li><button onClick={() => setFilteredName("Appliedjob")} className={`text-sm md:text-xl font-medium font-sans text-[#6C757D]   ${filteredName === "Appliedjob" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>Applied Job</button></li>
+                                <li><button onClick={() => setFilteredName("MyJobs")} className={`text-sm md:text-xl font-medium font-sans text-[#6C757D]   ${filteredName === "MyJobs" && "h-12  text-[#2E2E2E] font-semibold border-b-2 border-[#2E5BFF] "}`}>My Jobs</button></li>
                             </ul>
                         </div>
                     </div>

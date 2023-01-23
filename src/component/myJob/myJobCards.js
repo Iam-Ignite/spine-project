@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import ProgresssbarJobs from "../utils/ProgresssbarJobs";
 
 
 
-const MyJobsCards = ({ imge }) => {
+const MyJobsCards = ({ imge, link }) => {
     return (
         <div className='p-7 bg-white my-2  border rounded'>
             <div className='flex justify-between mr-5 items-center'>
@@ -30,8 +31,9 @@ const MyJobsCards = ({ imge }) => {
                 ACA Investments. Doc
             </label>
                 <p className="text-[#2E5BFF] text-sm">Download</p></div>
-
-            <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-4 py-2'>Message Client</button>
+            <Link to={link}>
+                <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-4 py-2'>Message Client</button>
+            </Link>
 
         </div>
     );

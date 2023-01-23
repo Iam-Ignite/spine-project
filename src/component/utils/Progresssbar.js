@@ -8,7 +8,7 @@ function Progresssbar({ progress }) {
         pending:'6px',
         backgroundColor: 'whitesmoke',
         borderRadius: 40,
-        margin: 10
+        margin: 0
     }
 
     const Childdiv = {

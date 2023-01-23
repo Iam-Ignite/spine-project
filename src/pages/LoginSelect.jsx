@@ -46,7 +46,7 @@ const LoginSelect = () => {
 													id='Beginner'
 													name='radio-group'
 												/>
-												<label for='Beginner'></label>
+												<label htmlFor='Beginner'></label>
 											</div>
 										</div>
 
@@ -68,7 +68,7 @@ const LoginSelect = () => {
 													id='Intermediate'
 													name='radio-group'
 												/>
-												<label for='Intermediate'></label>
+												<label htmlFor='Intermediate'></label>
 											</div>
 										</div>
 

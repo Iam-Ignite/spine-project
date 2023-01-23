@@ -25,28 +25,28 @@ export const  AppliedJobTabs = () => {
     )
 }
 
-export const MyjobsTab = ({ link }) => {
+export const MyjobsTab = () => {
     return (
         <div className="grid md:grid-cols-3 mx-5 md:mx-16 gap-4">
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 10.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 9.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 7.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 8.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 5.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 3.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 6.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 5.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 3.svg' />
-            <MyJobsCards link={link}
+            <MyJobsCards link="/messages"
                 imge='/Mask Group 6.svg' />
         </div>
     )

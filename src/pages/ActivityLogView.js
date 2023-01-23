@@ -5,7 +5,7 @@ import NavBar from '../component/common/NavBar'
 import SideBarDashboard from '../component/common/sidebarDashboard'
 import ProgresssbarJobs from '../component/utils/ProgresssbarJobs'
 
-function ActivityLogView({ link }) {
+function ActivityLogView() {
     return (
         <div className='flex flex-col-reverse md:flex-row md:flex lg:flex'>
             {/* <!-- NAV --> */}
@@ -37,16 +37,11 @@ function ActivityLogView({ link }) {
 
 
                                 </div>
-                                {
-                                    link ? (
-                                        <Link to={link}>
+                            
+                                        <Link to="/messages">
                                             <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-4 py-2'>Message Client</button>
                                         </Link>
-                                    ) : (
-
-                                        <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-4 py-2'>Message Client</button>
-                                    )
-                                }
+                                 
 
                             </div>
 

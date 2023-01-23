@@ -27,7 +27,7 @@ function NavBar() {
 
              <img
                 src='/notification.svg'
-                className={`${!show ? "block" : "hidden"  } h-8  md:ml-16  lg:ml-16`}
+                className={`${!show ? "block" : "hidden"  } h-6  md:ml-16  lg:ml-16`}
                 alt=''
             />
             <img

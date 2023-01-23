@@ -21,7 +21,7 @@ const Final = () => {
 					<div className='h-screen pb-16 ml-auto md:w-7/12'>
 						<div className='container mt-12 py-8'>
 							<div className='lg:w-11/12 relative'>
-								<div className='sticky ml-12 md:ml-28 lg:ml-28 px-2 top-0 z-40 bg-white w-96'>
+								<div className='sticky ml-6 md:ml-28 lg:ml-28 px-2 top-0 z-40 bg-white w-96'>
 									<h3 className='text-3xl mt-5 mb-2 fonts'>
 										Almost done.
 									</h3>
@@ -30,7 +30,7 @@ const Final = () => {
 									</p>
 								</div>
 
-								<div className='mt-5 h-min px-10 flex overflow-y-auto flex-col items-center justify-center'>
+								<div className='mt-5 h-min px-6 mr-4 md:mr-0 flex overflow-y-auto flex-col items-center justify-center'>
 									<form className='w-full pb-44 md:pb-16 lg:pb-16 md:ml-16 lg:ml-16 md:px-12 lg:px-12'>
 										<label
 											className='cursor-pointer'
