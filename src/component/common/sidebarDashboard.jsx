@@ -44,8 +44,8 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 
 	return (
 		<>
-			<nav className={`md:fixed z-10 block lg:relative md:bottom-0 bottom-1 fixed  md:w-64 lg:w-64 md:h-screen transition-all duration-300 transform bg-white   sidebar-color overflow-y-scrol translate-x-0 md:translate-x-0 ${sidebar ? "hidden" :"block"}`}>
-				<div className='flex flex-col justify-between lg:h-full md:h-full'>
+			<nav className={`md:relative fixed z-10 block lg:relative md:bottom-0 bottom-1  md:w-64 lg:w-64 md:h-auto transition-all duration-300 transform bg-white   sidebar-color overflow-y-scrol translate-x-0 md:translate-x-0 ${sidebar ? "hidden" :"block"}`}>
+				<div className='flex flex-col flex-1 justify-between lg:h-full md:h-full'>
 					<div className='md:py-8'>
 						<a
 							className=' md:flex-row flex-col hidden md:flex bottom-border3 pb-5 justify-center space-x-4 text-white'

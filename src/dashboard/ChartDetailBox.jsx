@@ -8,13 +8,18 @@ const ChartDetailBox = () => {
 			</h1>
 			<div className='flex flex-col md:flex-row lg:flex-row fonts  md:h-60 lg:h-60 py-8 items-center'>
 				<div
-					className=''
+					className='relative'
 					style={{
 						position: 'relative',
 						left: '-40px',
 						top: '-50px',
-					}}>
+					}}
+				>
 					<Chart />
+					<div className='absolute top-[187px] left-[47%]'>
+					<p className='text-[#2E5BFF] font-bold text-[18px]'>2,500</p>
+					<p className='text-[11px] ml-1 text-[#2E5BFF]'>Projects</p>
+					</div>
 				</div>
 				<div
 					style={{

@@ -7,7 +7,7 @@ const data = [
   { name: 'Group C', value: 300 },
   { name: 'Group D', value: 200 },
 ];
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#0088FE', '#5EA820', '#FFBB28', '#FF8042'];
 
 export default class Example extends PureComponent {
   static demoUrl = 'https://codesandbox.io/s/pie-chart-with-padding-angle-7ux0o';
@@ -25,7 +25,6 @@ export default class Example extends PureComponent {
         //   paddingAngle={5}
           dataKey="value"
         >
-        loo
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
           ))}
