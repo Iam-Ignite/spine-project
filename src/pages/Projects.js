@@ -13,7 +13,7 @@ function Projects() {
             {/* <!-- END OF NAV -->
 
            <!-- PAGE CONTENT --> */}
-            <main className='flex-1  bg-[#FBFCFD] h-screen pb-44 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
+            <main className='flex-1  bg-[#FBFCFD] h-screen pb-24 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
                 <NavBar />
                 <div className='w-full'>
                     <div className="mt-8 mx-5 md:mx-16">

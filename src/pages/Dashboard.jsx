@@ -19,7 +19,7 @@ const DashBoard = () => {
 			{/* <!-- END OF NAV -->
 
            <!-- PAGE CONTENT --> */}
-			<main className='flex-1  bg-[#FBFCFD] pb-44 h-screen lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
+			<main className='flex-1  bg-[#FBFCFD] pb-24 h-screen lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
 				<NavBar />
 				<div className='flex flex-wrap-reverse mt-8 mx-5 md:ml-12 items-center'>
 					<p className='md:ml-5 font-bold'>

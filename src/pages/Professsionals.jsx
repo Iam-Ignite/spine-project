@@ -22,7 +22,7 @@ const Professsionals = () => {
 			{/* <!-- END OF NAV -->
 
            <!-- PAGE CONTENT --> */}
-			<main className='flex-1  bg-[#FBFCFD] h-screen pb-44 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
+			<main className='flex-1  bg-[#FBFCFD] h-screen pb-24 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
 				<NavBar />
 				<div className='mt-10 md:mx-10 mx-4'>
 					<h1 className='fonts font-bold text-2xl'>

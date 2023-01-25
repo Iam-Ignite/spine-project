@@ -44,7 +44,7 @@ function Profile() {
 			{/* <!-- END OF NAV -->
 
            <!-- PAGE CONTENT --> */}
-			<main className='flex-1  bg-[#FBFCFD] h-screen pb-44 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
+			<main className='flex-1  bg-[#FBFCFD] h-screen pb-24 lg:overflow-x-hidden md:overflow-x-hidden py-16 overflow-y-scroll'>
 				<NavBar />
 				<div className='w-full md:flex p-8 px-4 md:px-16'>
 					<ProfileSidebar tabName={tabName} setTabName={setTabName} />
