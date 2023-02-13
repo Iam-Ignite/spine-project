@@ -13,7 +13,7 @@ function ProDetails({ setModalDetails }) {
 				<div className='flex items-center'>
 					<img src='/Mask Group 5.svg' alt='icom' />
 					<div className='mx-4'>
-						<h1 className='fonts py-1  text-lg'>
+						<h1 className='fonts py-1 mb-0 text-lg'>
 							Accountant
 						</h1>
 						<p className='underline text-blue-500'>
@@ -23,32 +23,32 @@ function ProDetails({ setModalDetails }) {
 				</div>
 
 				<div className='border flex rounded-sm my-7'>
-					<div className='px-4 w-full  py-3'>
-						<p className='fonts text-xs text-gray-500'>
+					<div className='px-3 text-center w-full  py-3'>
+						<p className='fonts text-xs mb-0 text-gray-500'>
 							Work Level
 						</p>
-						<b className='fonts text-xs text-gray-600'>
+						<b className='fonts text-xs mb-0 text-gray-600'>
 							Expert
 						</b>
 					</div>
-					<div className='px-4 w-full blr py-3'>
-						<p className='fonts text-xs text-gray-500'>
+					<div className='px-3 text-center w-full blr py-3'>
+						<p className='fonts text-xs mb-0 text-gray-500'>
 							Years of Experience
 						</p>
-						<b className='fonts text-xs text-gray-600'>
+						<b className='fonts text-xs mb-0 text-gray-600'>
 							5 years
 						</b>
 					</div>
-					<div className='px-4 w-full  py-3'>
-						<p className='fonts text-xs text-gray-500'>
+					<div className='px-3 text-center w-full  py-3'>
+						<p className='fonts text-xs mb-0 text-gray-500'>
 							Hourly Rate
 						</p>
-						<b className='fonts text-xs text-gray-600'>
+						<b className='fonts text-xs mb-0 text-gray-600'>
 							N40,000
 						</b>
 					</div>
 				</div>
-				<h1 className='fonts text-sm mb-3 font-bold'>
+				<h1 className='fonts text-sm mb-2 font-bold'>
 					Overview
 				</h1>
 				<p className='fonts text-sm text-gray-700'>

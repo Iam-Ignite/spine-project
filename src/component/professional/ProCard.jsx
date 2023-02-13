@@ -4,12 +4,12 @@ import { BiDotsHorizontalRounded } from 'react-icons/bi';
 
 const ProCard = ({setModalDetails, imge}) => {
 	return (
-		<div className='p-5 bg-white my-4 border rounded'>
+		<div className='p-4 bg-white my-2 border rounded'>
 			<div className='flex justify-between'>
 				<img src={imge} alt='icom' />
 				<BiDotsHorizontalRounded />
 			</div>
-			<h1 className='fonts py-2  text-lg'>Accountant</h1>
+			<h1 className='fonts py-2 mb-0 text-lg'>Accountant</h1>
 			<p className='fonts text-sm text-gray-700'>
 				I am a well grounded accountant with compelling and
 				elegant financial skills That helps solve really

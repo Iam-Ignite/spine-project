@@ -3,28 +3,28 @@
 const Card = () => {
 	return (
 		<>
-			<div className='grid md:grid-cols-4 lg:grid-cols-4 grid-cols-2 gap-5 md:mx-16 mx-5 mt-10'>
-				<div className='bg-blue-600 py-5  rounded-sm'>
-					<div className='bottom-border pb-2'>
-						<p className='px-5 text-white text-xs'>
+			<div className='grid md:grid-cols-4 lg:grid-cols-4 grid-cols-2 gap-3 md:mx-16 mx-5 mt-2'>
+				<div className='bg-blue-600 py-3  rounded-sm'>
+					<div className='bottom-border pb-1'>
+						<p className='px-4 text-white text-xs'>
 							{' '}
-							Total Transaction Amount
+							Total Amount Paid Out
 						</p>
 					</div>
-					<div className='py-5'>
-						<b className='px-5 text-white text-lg'>
+					<div className='py-3'>
+						<b className='px-4 text-white text-lg'>
 							N12,450,000.50
 						</b>
 					</div>
 				</div>
 
-				<div className='bg-slate-100 py-5  rounded-sm'>
-					<div className='bottom-border2 pb-2'>
-						<p className='px-5 text-black text-xs'>
+				<div className='bg-slate-100 py-3  rounded-sm'>
+					<div className='border-b pb-1'>
+						<p className='px-4 text-black text-xs'>
 							Total Projects
 						</p>
 					</div>
-					<div className='flex justify-between items-center px-5'>
+					<div className='flex justify-between items-center px-4'>
 						<b className='text-black text-lg py-2 pt-3'>
 							333
 						</b>
@@ -35,15 +35,15 @@ const Card = () => {
 						/>
 					</div>
                     <br />
-					<small className="px-5 text-green-600">25% Less Than Last Month</small>
+					<small className="px-4 text-green-600">25% Less Than Last Month</small>
 				</div>
-				<div className='bg-slate-100 py-5  rounded-sm'>
-					<div className='bottom-border2 pb-2'>
-						<p className='px-5 text-black text-xs'>
-							Overdue Projects
+				<div className='bg-slate-100 py-3  rounded-sm'>
+					<div className='border-b pb-1'>
+						<p className='px-4 text-black text-xs'>
+							Pending Projects
 						</p>
 					</div>
-					<div className='pt-3 px-5'>
+					<div className='pt-3 px-4'>
 						<b className='text-black text-lg'>333</b>
 						<br />
                         <br />
@@ -51,13 +51,13 @@ const Card = () => {
 					</div>
 				</div>
 
-				<div className='bg-slate-100 py-5  rounded-sm'>
-					<div className='bottom-border2 pb-2'>
-						<p className='px-5 text-black text-xs'>
+				<div className='bg-slate-100 py-3  rounded-sm'>
+					<div className='border-b pb-1'>
+						<p className='px-4 text-black text-xs'>
 							Overdue Projects
 						</p>
 					</div>
-					<div className='pt-3 px-5'>
+					<div className='pt-3 px-4'>
 						<b className='text-black text-lg'>333</b>
 						<br />
                         <br />

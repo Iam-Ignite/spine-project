@@ -1,4 +1,4 @@
-import { RiAwardFill, RiBarChartBoxFill, RiDashboardFill, RiMessageFill, RiStackFill, RiSuitcaseFill, RiUserFill } from "react-icons/ri";
+import { RiBarChartBoxFill, RiDashboardFill, RiMessageFill, RiStackFill, RiSuitcaseFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 
 const SideBarDashboard = ({sidebar, setSidebar}) => {
@@ -6,7 +6,7 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 	const navLink = [
 		{
 			path: '/dashboard',
-			title: 'Dashboard',
+			title: 'Overviev',
 			icon:<RiDashboardFill/>
 		},
 		{
@@ -15,13 +15,8 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 			icon:<RiStackFill />
 		},
 		{
-			path: '/profile',
-			title: 'Profile',
-			icon:<RiUserFill />
-		},
-		{
 			path: '/myjobs',
-			title: 'My Jobs',
+			title: 'professionals',
 			icon:<RiSuitcaseFill />
 		},
 		{
@@ -30,9 +25,9 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 			icon:<RiBarChartBoxFill />
 		},
 		{
-			path: '/professionals',
-			title: 'Professionals',
-			icon:<RiAwardFill />
+			path: '/hiredprofessionals',
+			title: 'hiredprofessionals',
+			icon:<RiBarChartBoxFill />
 		},
 		{
 			path: '/messages',
@@ -44,7 +39,7 @@ const SideBarDashboard = ({sidebar, setSidebar}) => {
 
 	return (
 		<>
-			<nav className={`md:relative fixed z-10 block lg:relative md:bottom-0 bottom-1  md:w-64 lg:w-64 md:h-auto transition-all duration-300 transform bg-white   sidebar-color overflow-y-scrol translate-x-0 md:translate-x-0 ${sidebar ? "hidden" :"block"}`}>
+			<nav className={`md:relative fixed z-10 block lg:relative md:bottom-0 bottom-1  md:w-64 lg:w-64 md:h-auto transition-all duration-300 transform   md:bg-[#05154E] overflow-y-scrol translate-x-0 md:translate-x-0 `}>
 				<div className='flex flex-col flex-1 justify-between lg:h-full md:h-full'>
 					<div className='md:py-8'>
 						<a

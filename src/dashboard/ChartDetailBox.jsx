@@ -2,11 +2,11 @@ import Chart from '../component/common/PieChart';
 
 const ChartDetailBox = () => {
 	return (
-		<div className=' md:mx-16 lg:mx-16 md:mr-6 lg:mr-6 mt-10 py-6 bg-slate-100 border lg:px-10 px-2 w-full md:w-auto lg:w-auto  md:px-10'>
-			<h1 className='md:text-center ml-7  fonts '>
+		<div className='mt-5 py-6 bg-slate-100 border lg:px-10 px-2 w-full md:w-auto lg:w-auto  md:px-10'>
+			<h1 className='md:text-center text-lg ml-7  fonts '>
 				Project status Statistics
 			</h1>
-			<div className='flex flex-col md:flex-row lg:flex-row fonts  md:h-60 lg:h-60 py-8 items-center'>
+			<div className='flex flex-col md:flex-row lg:flex-row fonts  md:h-60 lg:h-60 px-4 py-8 items-center'>
 				<div
 					className='relative'
 					style={{

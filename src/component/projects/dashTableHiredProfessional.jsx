@@ -5,7 +5,7 @@ import tableData from './tableData.json';
 import Popup from 'reactjs-popup';
 import { Link } from 'react-router-dom';
 
-const DashTable = ({filteredName, url}) => {
+const DashTableHiredProfessional = ({filteredName,occupation,level, hoursWeek,experience,url}) => {
 	return (
 		<div className='relative overflow-x-auto my-5 mx-16 border hidden md:block'>
 			<table className='w-full text-sm text-left text-gray-500 '>
@@ -28,7 +28,7 @@ const DashTable = ({filteredName, url}) => {
 						<th
 							scope='col'
 							className='px-2 py-4 fonts uppercase'>
-							Client name
+							User Name
 						</th>
 						<th
 							scope='col'
@@ -38,12 +38,22 @@ const DashTable = ({filteredName, url}) => {
 						<th
 							scope='col'
 							className='px-2 py-4 fonts uppercase'>
-							Project Name
+							Occupation
 						</th>
 						<th
 							scope='col'
 							className='px-2 py-4 fonts uppercase'>
-							AMOUNT
+							Level
+						</th>
+						<th
+							scope='col'
+							className='px-2 py-4 fonts uppercase'>
+							Experience (Yrs)
+						</th>
+						<th
+							scope='col'
+							className='px-2 py-4 fonts uppercase'>
+							Hours/Week
 						</th>
 						<th
 							scope='col'
@@ -80,11 +90,17 @@ const DashTable = ({filteredName, url}) => {
 							<td className='p-2 fonts text-center md:px-2 md:py-4'>
 								{table.email}
 							</td>
-							<td className='p-2 fonts md:px-2 md:py-4'>
-								{table.sponsors}
+							<td className='p-2 fonts text-center md:px-2 md:py-4'>
+								{occupation}
 							</td>
 							<td className='p-2 fonts md:px-2 md:py-4'>
-								{table.price}
+								{level}
+							</td>
+							<td className='p-2 fonts md:px-2 md:py-4'>
+								{experience}
+							</td>
+							<td className='p-2 fonts md:px-2 md:py-4'>
+								{hoursWeek}
 							</td>
 							<td className='p-2 fonts md:px-2 md:py-4 '>
 								<button className={`px-4 text-green-600 ${table.progress}`}>
@@ -107,4 +123,4 @@ const DashTable = ({filteredName, url}) => {
 	);
 };
 
-export default DashTable;
+export default DashTableHiredProfessional;

@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
-import { VscClose } from 'react-icons/vsc';
 import SideBarDashboard from '../common/sidebarDashboard';
+import PaymentModal from '../common/PaymentModal';
 
 const Payment = () => {
 	const [modal, setModal] = useState(false);
@@ -32,7 +32,8 @@ const Payment = () => {
 						<img
 							src='/magnifying-glass.svg'
 							className='absolute right-4 top-2'
-						alt=',nsa'/>
+							alt=',nsa'
+						/>
 					</div>
 					<img
 						src='/notification.svg'
@@ -51,8 +52,8 @@ const Payment = () => {
 							Note to Professional
 						</h1>
 					</div>
-					<div className='px-10 flex flex-col  md:mx-32 mt-14 items-center justify-center'>
-						<form className='w-full py-10 m-auto bg-white px-32'>
+					<div className='px-10 flex flex-col  md:ml-8 w-3/4 mt-14 items-center justify-center'>
+						<form className='w-full py-10 m-auto bg-white px-16'>
 							<div className='w-full flex items-center  px-3 mb-5'>
 								<label
 									className='block w-64 uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
@@ -143,7 +144,7 @@ const Payment = () => {
 							<div className='flex  ml-44 justify-end'>
 								<button
 									onClick={handlesubmit}
-									className='bg-blue-600 w-full mx-5 text-center py-2 mt-6 px-5 fonts rounded-sm text-white'>
+									className='bg-blue-600 w-full mx-3 text-center py-2 mt-6 px-5 fonts rounded-sm text-white'>
 									Make Payment
 								</button>
 							</div>
@@ -152,79 +153,7 @@ const Payment = () => {
 
 					{/* success modal */}
 
-					<div
-						className={`fixed flex inset-0 z-50 items-center justify-center   bg-black bg-opacity-75 modal ${
-							modal ? '' : 'hidden'
-						}`}>
-						<div className='relative max-w-lg px-1 py-4 md:p-4 xl:px-8  bg-white shadow-xl rounded-sm lg:max-w-lg'>
-							<VscClose
-								onClick={() => setModal(!true)}
-								className='ml-auto cursor-pointer text-2xl'
-							/>
-							<div className=' '>
-								<h1 className='m-3 text-lg font-medium fonts'>
-									Select payment channel
-								</h1>
-
-								<div className='my-7 mx-3'>
-									<p className='py-3 text-sm fonts text-gray-700'>
-										Expected Amount
-									</p>
-									<b className='border border-blue-400  rounded-sm px-3 py-1 text-blue-600 bg-blue-100'>
-										N250,000.00
-									</b>
-								</div>
-
-								<div className=''>
-									<p className='py-4 text-sm fonts text-gray-700'>
-										Choose how you want to make payment
-									</p>
-									<div className='flex'>
-										<div className='mb-8 mr-3'>
-											<input
-												type='radio'
-												id='Interswitch'
-												name='radio-group'
-											/>
-											<label
-												className=' text-sm fonts text-gray-700'
-												htmlFor='Interswitch'>
-												Interswitch
-											</label>
-										</div>
-										<div className='mb-8 mx-3'>
-											<input
-												type='radio'
-												id='Paypal'
-												name='radio-group'
-											/>
-											<label
-												className=' text-sm fonts text-gray-700'
-												htmlFor='Paypal'>
-												Paypal
-											</label>
-										</div>
-										<div className='mb-8 mx-3'>
-											<input
-												type='radio'
-												id='Spine Wallet'
-												name='radio-group'
-											/>
-											<label
-												className=' text-sm fonts text-gray-700'
-												htmlFor='Spine Wallet'>
-												Spine Wallet
-											</label>
-										</div>
-									</div>
-								</div>
-
-								<button className='bg-blue-600 w-full  text-center py-2  px-5 fonts rounded-sm text-white'>
-									Proceed to pay
-								</button>
-							</div>
-						</div>
-					</div>
+					<PaymentModal modal={modal} setModal={setModal} />
 				</div>
 			</main>
 		</div>

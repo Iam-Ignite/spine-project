@@ -1,6 +1,8 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 /* From uiverse.io by @magbanum */
@@ -69,7 +71,7 @@ body{
 
 }
 .sidebar-color{
-  background-color:#05154E;
+  background-color:#05154E !important;
 }
 }
 .Pending{
@@ -169,4 +171,8 @@ body{
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+a{
+  text-decoration: none !important;
 }
