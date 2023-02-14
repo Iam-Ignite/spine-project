@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import PaymentModal from '../common/PaymentModal'
+import PaymentModal from '../payment/PaymentModal'
 import ActivityLogCards from './ActivityLogCards '
 
 

@@ -4,14 +4,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
 import SideBarDashboard from '../common/sidebarDashboard';
-import PaymentModal from '../common/PaymentModal';
+import PaymentModalTwo from '../payment/PaymentModalTwo';
 
 const Payment = () => {
-	const [modal, setModal] = useState(false);
+	const [modalTwo, setModalTwo] = useState(false);
 
 	const handlesubmit = (e) => {
 		e.preventDefault();
-		setModal(true);
+		setModalTwo(true);
 	};
 
 	return (
@@ -54,7 +54,7 @@ const Payment = () => {
 					</div>
 					<div className='px-10 flex flex-col  md:ml-8 w-3/4 mt-14 items-center justify-center'>
 						<form className='w-full py-10 m-auto bg-white px-16'>
-							<div className='w-full flex items-center  px-3 mb-5'>
+							<div className='w-full flex items-center  px-3 mb-1'>
 								<label
 									className='block w-64 uppercase tracking-wide fonts font-bold text-gray-700 text-xs  mb-2'
 									htmlFor='grid-first-name'>
@@ -130,7 +130,7 @@ const Payment = () => {
 									placeholder='Doe'
 								/>
 								<label
-									htmlhtmlFor='file'
+									htmlFor='file'
 									className='appearance-none flex items-center w-full bg-orange-200 text-gray-700 text-xs border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
 									<img
 										src='/attach.svg'
@@ -151,9 +151,9 @@ const Payment = () => {
 						</form>
 					</div>
 
-					{/* success modal */}
+					{/* success modalTwo */}
 
-					<PaymentModal modal={modal} setModal={setModal} />
+					<PaymentModalTwo modalTwo={modalTwo} setModalTwo={setModalTwo} />
 				</div>
 			</main>
 		</div>

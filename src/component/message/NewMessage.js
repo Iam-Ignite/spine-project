@@ -6,13 +6,13 @@ import { BsFillEmojiSmileFill } from "react-icons/bs";
 
 function NewMessage({ setIsNewMessage }) {
     return (
-        <div className="w-full h-auto pb-4 p-5 bg-white border">
+        <div className="w-full h-auto pb-4 p-4 bg-white border">
             <div className="">
                 <button onClick={() => setIsNewMessage(true)} className="md:hidden flex mt-4 ml-2 items-center">
                     <BiChevronLeft />Back
                 </button>
             </div>
-            <div className=' w-auto flex items-center mb-8 mt-6 bg-[#F4F4F4] text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
+            <div className=' w-auto flex items-center mb-6 mt-3 bg-[#F4F4F4] text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
                 <label
                     className='w-auto'
                     htmlFor='grid-last-name'>
@@ -24,7 +24,7 @@ function NewMessage({ setIsNewMessage }) {
                     type='text'
                 />
             </div>
-            <div className=' w-auto flex items-center mb-8 bg-[#F4F4F4] text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
+            <div className=' w-auto flex items-center mb-6 bg-[#F4F4F4] text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'>
                 <label
                     className='w-auto'
                     htmlFor='grid-last-Subject'>
@@ -39,7 +39,7 @@ function NewMessage({ setIsNewMessage }) {
             <div className="my-5 border-b">
             
             </div>
-            <div className="mt-3 bg-[#FCFCFC] rounded w-auto p-5 border">
+            <div className="mt-3 bg-[#FCFCFC] rounded w-auto p-4 border">
                 <textarea name="" className='w-full bg-[#FCFCFC] outline-none' placeholder='Please type in your response here...' id="" cols="30" rows="10"></textarea>
                 <div className="flex justify-between">
                     <div className="my-2 flex justify-between items-center text-2xl gap-3">

@@ -1,40 +1,56 @@
 import React from 'react'
+import { VscClose } from 'react-icons/vsc'
 
-function PaymentModal({ modal, setModal }) {
+export default function PaymentModal({setModal,modal}) {
+  
+
     return (
         <div
-            className={`fixed flex inset-0 z-50 items-center justify-center px-5   bg-black bg-opacity-75 modal ${modal ? '' : 'hidden'
+            className={`fixed w-screen h-screen inset-0 z-50 flex bg-black bg-opacity-75  justify-center items-center ${modal ? '' : 'hidden'
                 }`}>
-            <div className='relative max-w-lg md:h-96  px-10 py-6 w-full  bg-white shadow-xl rounded-xl lg:max-w-lg'>
-                <b className='font-sans py-4 mt-8 text-xl font-medium'>Last Payment Details</b>
-                <p className='text-gray-600 text-sm mt-5'>April 02, 2022</p>
+            <div className='relative p-4 px-5  bg-white shadow-xl rounded-sm lg:max-w-lg'>
+                <VscClose onClick={() => setModal(!true)} className='ml-auto cursor-pointer text-2xl' />
+                <div className=' '>
+                    <h1 className=' text-lg font-normal mb-0  fonts'>Select payment channel</h1>
 
-                <div className="grid grid-cols-2 border-b mt-8 py-2">
-                    <p className='text-gray-600 text-sm '>Amount</p>
-                    <h6 className='text-base'>N 1,500</h6>
-                </div>
-                <div className="grid grid-cols-2 border-b py-2">
-                    <p className='text-gray-600 text-sm '>Card Type</p>
-                    <h6 className='text-base'>Mastercard</h6>
-                </div>
-                <div className="grid grid-cols-2 border-b py-2">
-                    <p className='text-gray-600 text-sm '>Card Holder Name</p>
-                    <h6 className='text-base'>Enter Name on the card</h6>
-                </div>
-                <div className="grid grid-cols-2 border-b py-2">
-                    <p className='text-gray-600 text-sm '>Card Number</p>
-                    <h6 className='text-base'>0000 0000 0000 000</h6>
-                </div>
-            
-                <div className='flex mt-8 justify-center'>
-                    <button onClick={() => setModal(false)}
-                        className='px-4 py-2 text-base fonts text-white btn bg-auraPrimary rounded-sm bg-blue-600'>
-                        Close
-                    </button>
+                    <div className='my-2 mx-3'>
+                        <p className='py-2 mb-2 text-sm fonts text-gray-700'>Expected Amount</p>
+                        <b className='border border-blue-400 mb-0  rounded-md px-3 py-2 text-blue-600 bg-blue-100'>N250,000.00</b>
+                    </div>
+
+                    <div className=''>
+                        <p className='py-4 mb-0 text-sm fonts text-gray-700'>Choose how you want to make payment</p>
+                        <div className='flex'>
+                            <div className='mb-8 mr-3'>
+                                <input
+                                    type='radio'
+                                    id='Interswitch'
+                                    name='radio-group'
+                                />
+                                <label className=' text-sm fonts text-gray-700' htmlFor='Interswitch'>Interswitch</label>
+                            </div>
+                            <div className='mb-8 mx-3'>
+                                <input
+                                    type='radio'
+                                    id='Paypal'
+                                    name='radio-group'
+                                />
+                                <label className=' text-sm fonts text-gray-700' htmlFor='Paypal'>Paypal</label>
+                            </div>
+                            <div className='mb-8 mx-3'>
+                                <input
+                                    type='radio'
+                                    id='Spine Wallet'
+                                    name='radio-group'
+                                />
+                                <label className=' text-sm fonts text-gray-700' htmlFor='Spine Wallet'>Spine Wallet</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button className='bg-blue-600 font-light  text-center py-2  px-5 fonts rounded-sm text-white'>Proceed to pay</button>
                 </div>
             </div>
         </div>
     )
 }
-
-export default PaymentModal

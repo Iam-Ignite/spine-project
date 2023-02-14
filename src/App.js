@@ -24,7 +24,6 @@ function App() {
         <Route path="myjobs" element={<MyJob />} />
         <Route path="activitylog" element={<ActivityLog />} />
         <Route path="/activitylog/jobview" element={<ActivityLogView />} />
-        <Route path="/activitylog/jobview" element={<ActivityLogView />} />
         <Route path="dashboard" element={<DashBoard />} />
         <Route path="professionals" element={<Professsionals />} />
         <Route path="payment" element={<Payment />} />

@@ -23,15 +23,15 @@ function ActivityLogView() {
                         </div>
                         <div className='w-full md:flex'>
 
-                            <div className='p-5 bg-white my-4  border h-72 w-96 rounded'>
+                            <div className='p-4 bg-white my-4  border h-2/5 w-96 rounded'>
                                 <div className='flex justify-between'>
                                     <img src='/Mask Group 10.svg' alt='icom' />
                                     <BiDotsHorizontalRounded />
                                 </div>
-                                <p className='fonts text-sm py-3 text-gray-700'>
+                                <p className='fonts text-sm py-1 text-gray-700'>
                                     Earnings available now: <b className="font-sans"> N 100.50</b>
                                 </p>
-                                <div className='my-3 flex items-center'>
+                                <div className=' flex items-center'>
                                     <span className='text-xs  font-sans py-2 text-black rounded-sm '>60%</span>
                                     <ProgresssbarJobs progress='50' istrue />
 
@@ -39,7 +39,7 @@ function ActivityLogView() {
                                 </div>
                             
                                         <Link to="/messages">
-                                            <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-4 py-2'>Message Client</button>
+                                            <button className='text-white bg-blue-600 rounded text-sm  px-8 mt-2 py-2'>Message Client</button>
                                         </Link>
                                  
 
